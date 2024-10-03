@@ -56,8 +56,8 @@ public class Alumno {
         return promedio;
     }
 
-    public void setPromedio(double promedio) {
-        this.promedio = promedio = (this.estrucuturas + this.ingles + this.iot) / 3;
+    public void setPromedio() {
+        this.promedio =(this.estrucuturas + this.ingles + this.iot) / 3;
     }
     
     @Override
