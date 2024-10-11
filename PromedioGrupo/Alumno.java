@@ -11,6 +11,10 @@ public class Alumno {
         this.nombre = n;
         this.matricula = m;
     }
+//constructor vacio
+    public Alumno(){
+
+    };
 
     public String getNombre() {
         return nombre;
